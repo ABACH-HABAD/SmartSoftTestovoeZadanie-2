@@ -1,8 +1,6 @@
 <?php
 class Review
 {
-    public static array $ReviewList = [];
-
     private readonly string $name;
     private readonly string $comment;
 
