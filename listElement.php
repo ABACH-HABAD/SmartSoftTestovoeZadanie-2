@@ -4,10 +4,10 @@
     <div>
       <?php $review=$repository->GetNextReview() ?>
       <h3 class="from-headline review-title">
-        <?= htmlspecialchars($review->getName()); ?>
+        <?= $review->getName(); ?>
       </h3>
       <p class="form-text from-subheadline review-text">
-        <?= htmlspecialchars($review->getComment()) ?>
+        <?= $review->getComment() ?>
       </p>
     </div>
   </div>
